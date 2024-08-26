@@ -462,10 +462,12 @@ const createWebRtcTransport = async (router) => {
       // https://mediasoup.org/documentation/v3/mediasoup/api/#WebRtcTransportOptions
       const webRtcTransport_options = {
         listenIps: [
-          {
-            ip: '0.0.0.0', // replace with relevant IP address
-            announcedIp: '216.24.57.253',
-          }
+          // {
+          //   ip: '0.0.0.0', // replace with relevant IP address
+          //   announcedIp: '216.24.57.253',
+          // },
+          { ip: '10.220.183.188', announcedIp: null },
+          { ip: '0.0.0.0', announcedIp: 'https://demo-mediasoup.onrender.com' }
         ],
         enableUdp: true,
         enableTcp: true,
