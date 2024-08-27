@@ -466,7 +466,7 @@ const createWebRtcTransport = async (router) => {
           //   ip: '0.0.0.0', // replace with relevant IP address
           //   announcedIp: '216.24.57.253',
           // },
-          { ip: '10.220.183.188', announcedIp: null },
+          // { ip: '10.220.183.188', announcedIp: null },
           { ip: '0.0.0.0', announcedIp: 'https://demo-mediasoup.onrender.com' }
         ],
         enableUdp: true,
